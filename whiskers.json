@@ -18,6 +18,7 @@
         "( *)?version: (?<currentValue>.*?)\n"
       ],
       "depNameTemplate": "catppuccin/toolbox",
+      "packageNameTemplate": "whiskers",
       "versioningTemplate": "semver-coerced",
       "datasourceTemplate": "github-tags"
     }
