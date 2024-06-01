@@ -9,8 +9,8 @@
       "matchStrings": [
         "( *)?version: (?<currentValue>.*?)\n"
       ],
-      "depNameTemplate": "catppuccin/toolbox",
-      "versioningTemplate": "regex:^whiskers-v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)?$",
+      "depNameTemplate": "catppuccin/mdbook",
+      "extractVersionTemplate": "^v?(?<version>.*)$",
       "datasourceTemplate": "github-tags"
     }
   ]
