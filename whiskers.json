@@ -10,7 +10,6 @@
         "( *)?version: (?<currentValue>.*?)\n"
       ],
       "depNameTemplate": "catppuccin/toolbox",
-      "extractVersionTemplate": "^whiskers-v(?<currentValue>.*)$",
       "datasourceTemplate": "github-tags"
     }
   ]
