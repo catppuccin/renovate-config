@@ -19,6 +19,7 @@
       ],
       "depNameTemplate": "catppuccin/toolbox",
       "packageNameTemplate": "whiskers",
+      "extractVersionTemplate": "^whiskers-v(?<version>.*)$",
       "versioningTemplate": "semver-coerced",
       "datasourceTemplate": "github-tags"
     }
