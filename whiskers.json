@@ -15,7 +15,7 @@
         "^.*.tera$"
       ],
       "matchStrings": [
-        "( *)?version: (?<currentValue>.*?)"
+        "( *)?version: (?<currentValue>.*?)\n"
       ],
       "depNameTemplate": "catppuccin/toolbox",
       "versioningTemplate": "semver-coerced",
