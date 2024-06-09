@@ -8,7 +8,7 @@
 <p align="center">
 	<a href="https://github.com/catppuccin/renovate-config/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/renovate-config?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 	<a href="https://github.com/catppuccin/renovate-config/issues"><img src="https://img.shields.io/github/issues/catppuccin/renovate-config?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/renovate-config/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/renovate-config/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/renovate-config/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/renovate-config?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 ## Usage
