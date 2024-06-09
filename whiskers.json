@@ -1,5 +1,16 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDepNames": [
+        "catppuccin/whiskers"
+      ],
+      "prBodyNotes": [
+        "> [!WARNING]",
+        "> You may need to edit the template accordingly before merging this Pull Request."
+      ]
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
@@ -11,11 +22,7 @@
       ],
       "depNameTemplate": "catppuccin/whiskers",
       "extractVersionTemplate": "^v?(?<version>.*)$",
-      "datasourceTemplate": "github-tags",
-      "prBodyNotes": [
-        "> [!WARNING]",
-        "> You may need to edit the template accordingly before merging this Pull Request."
-      ]
+      "datasourceTemplate": "github-tags"
     }
   ]
 }
