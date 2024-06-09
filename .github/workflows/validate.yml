@@ -1,0 +1,19 @@
+name: Validate
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+env:
+  LOG_LEVEL: debug
+  RENOVATE_VERSION: 37.399.9 # renovate: datasource=npm depName=renovate
+
+jobs:
+  shared-presets:
+    runs-on: ubuntu-latest
+    env: 
+      FILES: "default.json whiskers.json .github/renovate.json"
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo $FILES | xargs npx --package renovate@${{env.RENOVATE_VERSION}} -- renovate-config-validator
