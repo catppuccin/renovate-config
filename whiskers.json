@@ -6,8 +6,7 @@
         "catppuccin/whiskers"
       ],
       "prBodyNotes": [
-        "> [!WARNING]",
-        "> You may need to edit the template accordingly before merging this Pull Request."
+        "> [!WARNING]\n> You may need to edit the template accordingly before merging this Pull Request."
       ]
     }
   ],
