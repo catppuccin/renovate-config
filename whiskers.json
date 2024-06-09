@@ -11,11 +11,11 @@
       ],
       "depNameTemplate": "catppuccin/whiskers",
       "extractVersionTemplate": "^v?(?<version>.*)$",
-      "datasourceTemplate": "github-tags"
+      "datasourceTemplate": "github-tags",
       "prBodyNotes": [
         "> [!WARNING]",
         "> You may need to edit the template accordingly before merging this Pull Request."
-      ],
+      ]
     }
   ]
 }
