@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended",
     "mergeConfidence:all-badges",
+    "github>Omochice/renovate-config:deno",
     "github>catppuccin/renovate-config//whiskers"
   ]
 }
