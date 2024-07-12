@@ -6,6 +6,7 @@
         "catppuccin/whiskers"
       ],
       "prBodyNotes": [
+        "> [!IMPORTANT]\n> **You do not have to merge this Pull Request.** You can view the latest features and bug fixes by clicking the dropdown under the **Release Notes** section.",
         "> [!WARNING]\n> You may need to edit the template accordingly before merging this Pull Request."
       ]
     }
