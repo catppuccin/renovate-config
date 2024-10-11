@@ -23,6 +23,18 @@
       "depNameTemplate": "catppuccin/whiskers",
       "extractVersionTemplate": "^v?(?<version>.*)$",
       "datasourceTemplate": "github-tags"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "^.*.yml$"
+      ],
+      "matchStrings": [
+        "( *)?whiskers-version: (?<currentValue>.*?)\n"
+      ],
+      "depNameTemplate": "catppuccin/whiskers",
+      "extractVersionTemplate": "^v?(?<version>.*)$",
+      "datasourceTemplate": "github-tags"
     }
   ]
 }
