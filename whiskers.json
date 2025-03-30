@@ -22,6 +22,7 @@
       ],
       "depNameTemplate": "catppuccin/whiskers",
       "extractVersionTemplate": "^v?(?<version>.*)$",
+      "versioningTemplate": "npm",
       "datasourceTemplate": "github-tags"
     },
     {
@@ -34,6 +35,7 @@
       ],
       "depNameTemplate": "catppuccin/whiskers",
       "extractVersionTemplate": "^v?(?<version>.*)$",
+      "versioningTemplate": "npm",
       "datasourceTemplate": "github-tags"
     }
   ]
