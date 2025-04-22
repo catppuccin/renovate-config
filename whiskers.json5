@@ -18,11 +18,11 @@
         "^.*.tera$"
       ],
       "matchStrings": [
-        "( *)?version: (?<currentValue>.*?)\n"
+        'version: "?(?<currentValue>[^"\n]*)"?'
       ],
       "depNameTemplate": "catppuccin/whiskers",
       "extractVersionTemplate": "^v?(?<version>.*)$",
-      "versioningTemplate": "npm",
+      "versioningTemplate": "cargo",
       "datasourceTemplate": "github-tags"
     },
     {
@@ -31,11 +31,11 @@
         "^.*.yml$"
       ],
       "matchStrings": [
-        "( *)?whiskers-version: (?<currentValue>.*?)\n"
+        'whiskers-version: "?(?<currentValue>[^"\n]*)"?'
       ],
       "depNameTemplate": "catppuccin/whiskers",
       "extractVersionTemplate": "^v?(?<version>.*)$",
-      "versioningTemplate": "npm",
+      "versioningTemplate": "cargo",
       "datasourceTemplate": "github-tags"
     }
   ]
