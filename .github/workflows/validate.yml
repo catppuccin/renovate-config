@@ -15,5 +15,5 @@ jobs:
     env: 
       FILES: "default.json whiskers.json5 .github/renovate.json"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: echo $FILES | xargs npx --package renovate@${{env.RENOVATE_VERSION}} -- renovate-config-validator
